@@ -12,10 +12,12 @@ print(sample_dictionary)
 # Fetching a value from dictionary
 print(sample_dictionary["city"])
 
+
 # adding an item in dictionary
 sample_dictionary["profession"] = "Swimming"
 print("\n")
 print(sample_dictionary)
+
 
 # deleting an item from dictionary
 del sample_dictionary["age"]
@@ -28,12 +30,15 @@ print(sample_dictionary)
 
 print("\n")
 
+
 # Checking all keys in a dictionary
 print(sample_dictionary.keys())
+
 
 # Checking all values in a dictionary
 print(sample_dictionary.values())
 
 print("\n")
+
 # Checking all items in a dictionary
 print(sample_dictionary.items())
