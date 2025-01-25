@@ -1,0 +1,16 @@
+# Question : Write a program to check if a string is palindrome or not
+
+v = input("Enter a word and I will check if it is a palindrome or not :  " ).lower()
+print(v)
+
+def isPalindrome(s):
+    return s == v[::-1]
+
+s = v
+
+ans = isPalindrome(s)
+
+if ans:
+    print("Yes, it is a palindrome!")
+else:
+    print("No, it is not a palindrome.")
